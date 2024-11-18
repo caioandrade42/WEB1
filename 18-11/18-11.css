@@ -35,3 +35,15 @@ input[type="checkbox"]:checked + div{
 input[type="checkbox"]{
   display: block;
 }
+
+a{
+  color: darkgray;
+  display: block;
+  text-decoration: none;
+  border-bottom: 0.1px solid red;
+  padding: 5px;
+}
+
+a:hover{
+  color: blueviolet;
+}
