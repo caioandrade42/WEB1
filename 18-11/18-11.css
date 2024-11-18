@@ -1,0 +1,37 @@
+div p{
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
+
+thead tr{
+  background-color: antiquewhite;
+}
+
+tbody tr:nth-child(odd){
+  background-color: chocolate;
+}
+
+tbody tr:nth-child(even){
+  background-color: greenyellow;
+}
+
+tbody tr:hover{
+  color: rgb(252, 252, 252);
+}
+
+input[type="checkbox"] + div{
+  display: none;
+}
+
+input[type="checkbox"]:checked + div{
+  display: block;
+}
+
+input[type="checkbox"]{
+  display: block;
+}
