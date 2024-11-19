@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+div{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border: 1px blue;
+}
+
+h3 {
+  color: white;
+}
+
+header{
+
+}
+
+footer{
+  
+}
