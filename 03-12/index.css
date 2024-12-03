@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Caesar+Dressing&family=Lobster&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rock+Salt&display=swap');
+
+body {
+  font-family: "Atma", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  align-items: center;
+  text-align: center;
+}
+
+
+.preto {
+  background-color: black;
+}
+
+.branco{
+  color: white;
+}
