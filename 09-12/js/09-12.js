@@ -25,15 +25,12 @@ import {trocaImagem} from "./funcoes.js";
 //   alert('um dois tres quatro');
 // })
 
-const imgs = [
-  document.getElementById('img01'),
-  document.getElementById('img02'),
-  document.getElementById('btn01')
-];
-// console.log(trocaImagem);
-const btn01 = document.getElementById('btn01');
 
+  const img01 = document.getElementById('img01')
+  const img02 = document.getElementById('img02')
+// console.log(trocaImagem);
+console.log(typeof(img01));
 btn01.addEventListener('click' , () => {
-  
-  trocaImagem(imgs[0],imgs[1],imgs[2])
+  console.log('clicou');
+  trocaImagem(img01,img02);
 });
