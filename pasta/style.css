@@ -1,0 +1,39 @@
+.mario {
+  width: 120px;
+  height: 160px;
+  background-color: #fff;
+}
+
+.pixel {
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+/* Color classes */
+.red {
+  background-color: red;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.mario .hat {
+  width: 60px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.mario .hat .red {
+  background-color: red;
+}
+
+.mario .hat .blue {
+  background-color: blue;
+}
