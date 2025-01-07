@@ -33,11 +33,13 @@ const uf = document.querySelector('#estado');
 const salvar = document.getElementById('salvar');
 uf.addEventListener('input', function (e){
   console.log(cidade.length);
-  for (let i = 0; i < cidade.length; i++) {
-    cidade.remove(i);
+  let child = cidade.lastElementChild;
+  while (child) {
+    cidade.removeChild(child);
+    child = cidade.lastElementChild;
   }
-  e.preventDefault();
-  if(uf.innerText.length === 2){
+  console.log(uf.value.length);
+  if(uf.value.length == 2){
     awaitMunicipios(uf.value);
   }
 });
