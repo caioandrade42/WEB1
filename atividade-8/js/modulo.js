@@ -22,6 +22,10 @@ cartaCima1.addEventListener("click", ()=>{
   someCarta(cartaCima1)
 });
 
+cartaBaixo01.addEventListener("click", () => {
+  poeCarta(objArray,cartaBaixo01);
+});
+
 cartaCima2.addEventListener("click", ()=>{
   someCarta(cartaCima2)
 });
@@ -30,9 +34,7 @@ cartaCima3.addEventListener("click", ()=>{
   someCarta(cartaCima3)
 });
 
-cartaBaixo01.addEventListener("click", () => {
-  poeCarta(objArray,cartaBaixo01);
-});
+
 
 cartaBaixo02.addEventListener("click", () => {
   poeCarta(objArray, cartaBaixo02);
