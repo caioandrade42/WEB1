@@ -1,0 +1,64 @@
+@use 'cores';
+
+*{  //Reset
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+//Função
+@mixin alerta($cor_borda: blue,$cor_texto: #000,$cor_fundo: #eee){
+    border: 1px solid $cor_borda;
+    color: $cor_texto;
+    background-color: $cor_fundo;
+    padding: 10px;
+}
+
+body {
+    background-color: cores.$cor2;
+    color: cores.$cor3;
+}
+
+header {
+    padding: 8px;
+    background-color: cores.$cor1;
+    h3 {
+        text-align: center;
+        &:hover {
+            color: black;
+            transition: .5s;
+        }
+    }
+}
+
+main {
+    text-align: center;
+    p {
+        margin: 10px;
+        text-align: left;
+    }
+    button {
+        padding: 16px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.568);
+        margin: 8px;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        transition: .5s;
+    }
+}
+
+
+// Uso das funções
+p {
+    @include alerta;
+}
+
+// Específico
+.alerta-info {
+    @include alerta(red,#eee,#000);
+}
