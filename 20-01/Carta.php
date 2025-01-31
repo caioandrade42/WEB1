@@ -40,7 +40,7 @@ class Carta
     }
 }
 
-$obj = new Carta( 16451179604,'Gustavo Brendon');
+$obj = new Carta( 16451179604,'Caio Cézar');
 var_dump($obj->getNome());
 ?>
 </body>
